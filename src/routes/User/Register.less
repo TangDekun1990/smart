@@ -1,0 +1,73 @@
+@import "~antd/lib/style/themes/default.less";
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 24px;
+    }
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .getCaptcha {
+    display: block;
+    width: 100%;
+  }
+
+  .submit {
+    width: 50%;
+  }
+
+  .login {
+    float: right;
+    line-height: @btn-height-lg;
+  }
+}
+
+.success,
+.warning,
+.error {
+  transition: color 0.3s;
+}
+
+.success {
+  color: @success-color;
+}
+
+.warning {
+  color: @warning-color;
+}
+
+.error {
+  color: @error-color;
+}
+
+.progress-pass > .progress {
+  :global {
+    .ant-progress-bg {
+      background-color: @warning-color;
+    }
+  }
+}
+
+.input {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: inline-block;
+  height: 40px;
+}
+.input1 {
+  display: inline-block;
+  height: 40px;
+}
+.input2 {
+  display: inline-block;
+  height: 40px;
+  margin-bottom: 25px;
+}

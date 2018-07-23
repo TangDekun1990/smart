@@ -1,0 +1,115 @@
+@import "~antd/lib/style/themes/default.less";
+
+.stepForm {
+  margin: 40px auto 0;
+  width: 100%;
+}
+
+.stepFormText {
+  margin-bottom: 24px;
+  :global {
+    .ant-form-item-label,
+    .ant-form-item-control {
+      line-height: 22px;
+    }
+  }
+}
+
+.result {
+  margin: 0 auto;
+  max-width: 560px;
+  padding: 24px 0 8px;
+}
+
+.desc {
+  padding: 0 56px;
+  color: @text-color-secondary;
+  h3 {
+    font-size: 16px;
+    margin: 0 0 12px 0;
+    color: @text-color-secondary;
+    line-height: 32px;
+  }
+  h4 {
+    margin: 0 0 4px 0;
+    color: @text-color-secondary;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 12px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .desc {
+    padding: 0;
+  }
+}
+
+.information {
+  line-height: 22px;
+  :global {
+    .ant-row:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+  .label {
+    color: @heading-color;
+    text-align: right;
+    padding-right: 8px;
+  }
+}
+
+.money {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 14px;
+}
+
+.uppercase {
+  font-size: 12px;
+}
+.container {
+  text-align: right;
+}
+.line {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.line1 {
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 55%;
+  text-align: center;
+}
+.span1 {
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+}
+.span2 {
+  display: inline-block;
+  width: 215px;
+  text-align: left;
+  padding-left: 10px;
+}
+.input {
+  width: 200px;
+  border: none;
+}
+.text {
+  display: inline-block;
+  line-height: 50px;
+}
+.TextArea {
+  width: 450px;
+}
+.changePage {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
